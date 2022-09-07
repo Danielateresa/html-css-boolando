@@ -63,6 +63,14 @@ strong {
     text-decoration: line-through;
 }
 
+.z_index {
+    z-index: 1;
+}
+
+.hearts:hover {
+    color: var(--bl-sales);
+}
+
 /* #endregion utility */
 
 /* #region common */
@@ -113,13 +121,16 @@ nav {
 }
 
 .man1b {
-    visibility: hidden;
-    position: absolute;
+    display: none;
+    position: relative;
 }
 
-.man1:hover .man1b {
-    visibility: visible;
+.card:hover .man1b {
+    display: inline;
     position: absolute;
+    top: 0;
+    left: 10px;
+    width: 95.5%;
 }
 
 .top_heart {
@@ -154,8 +165,9 @@ nav {
     padding: 5px;
 }
 
-
 /* #endregion header */
 
 /* #region footer */
+
+
 /* #region footer */
