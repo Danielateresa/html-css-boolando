@@ -168,6 +168,15 @@ nav {
 /* #endregion header */
 
 /* #region footer */
+#footer {
+    background-color: var(--bl-balck);
+    color: var(--bl-white);
+}
 
+.footer_row {
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 0;
+}
 
 /* #region footer */
