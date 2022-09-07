@@ -112,7 +112,15 @@ nav {
 
 }
 
+.man1b {
+    visibility: hidden;
+    position: absolute;
+}
 
+.man1:hover .man1b {
+    visibility: visible;
+    position: absolute;
+}
 
 .top_heart {
     background-color: var(--bl-white);
@@ -128,8 +136,6 @@ nav {
     position: relative;
 
 }
-
-#man1:hover {}
 
 .details {
     position: absolute;
