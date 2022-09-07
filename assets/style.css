@@ -57,7 +57,8 @@ a {
 }
 
 .new_price {
-    color: var(--bl-sales)
+    color: var(--bl-sales);
+    font-weight: bold;
 }
 
 .max_price {
