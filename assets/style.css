@@ -42,7 +42,7 @@
 
 .container {
     width: 70%;
-    margin: 140px auto;
+    margin: 0 auto;
 }
 
 .card {
@@ -147,6 +147,10 @@ nav {
 /* #endregion header */
 
 /* #region main */
+#main {
+    padding-top: 140px;
+}
+
 #main img {
     max-width: 100%;
 
