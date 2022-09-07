@@ -18,10 +18,10 @@
     height: 70px;
 } */
 
-.debug .container {
+/* .debug .container {
     background-color: #FF0000;
 
-}
+} */
 
 /* .debug #main .col_4 {
     background-color: aqua;
@@ -37,6 +37,7 @@
 
 .row {
     flex-wrap: wrap;
+
 }
 
 .container {
@@ -44,13 +45,22 @@
     margin: 70px auto;
 }
 
-.p_20 {
-    padding: 0 20px;
+.card {
+    padding: 0 10px 50px;
+    position: relative;
 }
 
 a {
     color: var(--bl-white);
     text-decoration: none;
+}
+
+strong {
+    color: var(--bl-sales)
+}
+
+.max_price {
+    text-decoration: line-through;
 }
 
 /* #endregion utility */
@@ -97,6 +107,48 @@ nav {
 /* #endregion header */
 
 /* #region main */
+#main img {
+    max-width: 100%;
+
+}
+
+
+
+.top_heart {
+    background-color: var(--bl-white);
+    padding: 5px 16px;
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin-top: 10px;
+}
+
+.col_4 .card {
+    position: relative;
+
+}
+
+#man1:hover {}
+
+.details {
+    position: absolute;
+    left: 10px;
+    bottom: 140px;
+    color: var(--bl-white);
+}
+
+.sales {
+    background-color: var(--bl-sales);
+    padding: 5px;
+}
+
+.sustainab {
+    background-color: var(--bl-sustainability);
+    padding: 5px;
+}
+
+
 /* #endregion header */
 
 /* #region footer */
