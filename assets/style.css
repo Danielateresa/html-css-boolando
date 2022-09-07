@@ -1,0 +1,18 @@
+/* palette */
+:root {
+    --bl-sustainability: #008000;
+    --bl-balck: #1A1A1A;
+    --bl-sales: #FF0000;
+    --bl-nav: #FF6900;
+    --bl-white: #FFFFFF;
+
+}
+
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion common */
