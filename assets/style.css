@@ -1,12 +1,59 @@
-/* palette */
+/*#region palette */
+
 :root {
     --bl-sustainability: #008000;
     --bl-balck: #1A1A1A;
     --bl-sales: #FF0000;
     --bl-nav: #FF6900;
     --bl-white: #FFFFFF;
+}
+
+/* #endregion palette */
+/* #region debug */
+/*.debug #header .col_4,
+ .debug #footer .col_4 {
+    background-color: #008000;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+} */
+
+.debug .container {
+    background-color: #FF0000;
 
 }
+
+/* .debug #main .col_4 {
+    background-color: aqua;
+    height: 700px;
+} */
+
+/* #endregion debug */
+
+/* #region utility */
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 70%;
+    margin: 70px auto;
+}
+
+.p_20 {
+    padding: 0 20px;
+}
+
+a {
+    color: var(--bl-white);
+    text-decoration: none;
+}
+
+/* #endregion utility */
 
 /* #region common */
 * {
@@ -15,4 +62,42 @@
     box-sizing: border-box;
 }
 
+.col_4 {
+    width: calc(100% / 12 * 4);
+
+}
+
 /* #endregion common */
+
+
+/* #region header */
+#header {
+    background-color: var(--bl-nav);
+    color: var(--bl-white);
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+#header img {
+    width: 120px;
+}
+
+/* #endregion header */
+
+/* #region main */
+/* #endregion header */
+
+/* #region footer */
+/* #region footer */
